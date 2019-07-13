@@ -1,0 +1,102 @@
+    .signin-signup-select {
+        display: none;
+    }
+    #signin-signup {
+        display: block;
+    }
+    #cta {
+        width:600px;
+        margin: 0 auto;
+        padding:30vh 0 0;
+    }
+    #cta > p:first-child {
+        font-size:2em;
+    }
+    
+    #cta > p:nth-child(2) {
+        font-size:1em;
+    }
+    .search-box {
+        width:450px;        
+    }
+    #icon-container {        
+        flex-direction: row;
+        font-size:4em;
+    }
+
+    #text-header {
+        padding: 4em 0;    
+    }
+
+    .text-ap {
+        display: block;
+        font-size:1em;
+        line-height: 1.2;
+        padding:24px 0;
+        color:#404040;
+    }
+    .area1 { grid-area: first; }
+    .area2 { grid-area: second; }
+    .area3 { grid-area: third; }
+    .area4 { grid-area: fourth; }
+    .area5 { grid-area: fifth; }
+    .area6 { grid-area: sixth;}
+    .area7 { grid-area: seventh;}
+    .area8 { grid-area: eigth;}
+    .area9 { grid-area: nineth;}
+
+    .gallery {
+        grid-template-areas:
+    'first second third'
+    'first fourth fifth'
+    'sixth seventh fifth'
+    'eigth nineth fifth' ;
+        padding:4rem;
+    }
+
+    .img1 {     
+        height: 540px;      
+        background-image: url('https://source.unsplash.com/collection/FG9K_UpquR0/600x790');
+    }
+    .img2 { 
+        height: 250px;
+        background-image: url('https://source.unsplash.com/collection/FG9K_UpquR0/1002x602');
+    }
+    .img3 { 
+        height: 250px;
+         background-image: url('https://source.unsplash.com/collection/FG9K_UpquR0/1003x603'); 
+    }
+    .img4 { 
+        height: 250px;
+         background-image: url('https://source.unsplash.com/collection/FG9K_UpquR0/1004x604');
+    }
+    .img5 { 
+        height: 820px; 
+          background-image: url('https://source.unsplash.com/collection/FG9K_UpquR0/600x1210');
+    }
+    .img6 { 
+        height: 250px;
+           background-image: url('https://source.unsplash.com/collection/FG9K_UpquR0/1006x606');
+    }
+    .img7 { 
+        height: 250px;
+      background-image: url('https://source.unsplash.com/collection/FG9K_UpquR0/1007x607');
+    }
+    .img8 { 
+        height: 250px;
+      background-image: url('https://source.unsplash.com/collection/FG9K_UpquR0/1008x608');
+    }
+    .img9 { 
+        height: 250px;
+        background-image: url('https://source.unsplash.com/collection/FG9K_UpquR0/1009x609');
+    }
+
+    .gallery p {
+        display: none;
+    }
+
+    footer {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }

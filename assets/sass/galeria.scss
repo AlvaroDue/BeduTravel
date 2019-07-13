@@ -1,0 +1,85 @@
+.gallery {
+    display: grid;  
+    grid-column-gap: 2rem;
+    grid-row-gap:2rem;
+    padding:2rem;
+    grid-template-areas: auto auto auto;
+  }
+  
+  .areas { 
+      overflow: hidden;
+      border-radius: 4px;
+  }
+  
+  .gallery .image {
+    width: 100%;
+    border-radius: 4px;
+  }
+  
+  .image {
+      background-size:cover;
+      background-position: center center;
+      transition:.5s all ease-in-out;
+      position: relative;
+      animation-name: masonry;
+      animation-duration: 4s;
+      animation-fill-mode: forwards; 
+      opacity: 0; 
+  }
+  
+  @keyframes masonry {
+      from {
+          opacity:0;
+          bottom:-50px;
+      } 
+      to {
+          opacity: 1;
+          bottom:0;
+      }
+  }
+  
+  .image:hover {
+      transform: scale(1.1);
+  }
+  
+  .img1 {     
+      height: 300px;      
+      background-image: url('https://source.unsplash.com/collection/FG9K_UpquR0/600x790');
+  }
+  .img2 { 
+      height: 300px;
+      background-image: url('https://source.unsplash.com/collection/FG9K_UpquR0/1002x602');
+  }
+  .img3 { 
+      height: 300px;
+       background-image: url('https://source.unsplash.com/collection/FG9K_UpquR0/1003x603'); 
+  }
+  .img4 { 
+      height: 300px;
+       background-image: url('https://source.unsplash.com/collection/FG9K_UpquR0/1004x604');
+  }
+  .img5 { 
+      height: 300px; 
+        background-image: url('https://source.unsplash.com/collection/FG9K_UpquR0/600x1210');
+  }
+  .img6 { 
+      height: 300px;
+         background-image: url('https://source.unsplash.com/collection/FG9K_UpquR0/1006x606');
+  }
+  .img7 { 
+      height: 300px;
+    background-image: url('https://source.unsplash.com/collection/FG9K_UpquR0/1007x607');
+  }
+  .img8 { 
+      height: 300px;
+    background-image: url('https://source.unsplash.com/collection/FG9K_UpquR0/1008x608');
+  }
+  .img9 { 
+      height: 300px;
+      background-image: url('https://source.unsplash.com/collection/FG9K_UpquR0/1009x609');
+  }
+  
+  .gallery div p {
+      text-align: center;
+      padding-top:.5rem;
+  }

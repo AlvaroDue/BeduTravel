@@ -1,2 +1,10 @@
 @import 'general';
 @import 'nav';
+@import 'banner';
+@import 'secondSection';
+@import 'galeria';
+@import 'footer';
+
+@media screen and (min-width:600px){
+    @import 'desktop';
+}
