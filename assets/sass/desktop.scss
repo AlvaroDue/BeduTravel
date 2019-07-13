@@ -9,12 +9,16 @@
         margin: 0 auto;
         padding:30vh 0 0;
     }
-    #cta > p:first-child {
-        font-size:2em;
+    #cta {
+        p:first-child {
+            font-size:2em;
+        }        
     }
     
-    #cta > p:nth-child(2) {
-        font-size:1em;
+    #cta {
+        p:nth-child(2) {
+            font-size:1em;
+        }        
     }
     .search-box {
         width:450px;        
@@ -91,8 +95,11 @@
         background-image: url('https://source.unsplash.com/collection/FG9K_UpquR0/1009x609');
     }
 
-    .gallery p {
-        display: none;
+    .gallery {
+        p {
+            display: none;
+        }
+        
     }
 
     footer {
