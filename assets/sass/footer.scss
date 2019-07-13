@@ -1,8 +1,8 @@
 footer {
     width:100%;
     height: 21vh;
-    background-color: #333333;
-    color:#ffff;
+    background-color: $darkColor;
+    
     text-align: center;
 }
 
@@ -10,10 +10,18 @@ footer {
     padding: 1em 2em 0;
 }
 
+.redes {
+    p {
+        color: $lightColor;
+    }
+}
 
-.redes-icon > img {
-    width:32px;
-    margin: 1em;
+
+.redes-icon {
+    img {
+        width:32px;
+        margin: 1em;
+    }
 }
 
 

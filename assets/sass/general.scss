@@ -1,12 +1,35 @@
+$font: 'Montserrat', sans-serif;
+$pColor: #000e2b;
+$sColor: #013b63;
+$tColor: #55e9ea;
+$cColor: #ffa748;
+$darkColor: #404040;
+$lightColor: #ffffff;
+$fontSize: 16px;
+$fontSize2x: 2rem;
+$fontSize3x: 3rem;
+$sp-16: 1rem;
+$sp-24: 1.5rem;
+$sp-32: 2rem;
+$sp-48: 3rem;
+$sp-56: 3.5rem;
+$sp-64: 4rem;
+$sp-72: 4.5rem;
+$sp-80: 5rem;
+
+
 * {
     margin: 0;
     padding: 0;
     bottom: 0;
     box-sizing: border-box;
-    font-family: 'Montserrat', sans-serif;
-    
 }
 
 html {
-    font-size: 16px;
+    font-size: $fontSize;
+}
+
+body {
+    color:$darkColor;
+    font-family: $font;
 }
