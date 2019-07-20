@@ -5,8 +5,46 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Login</title>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
-    
+    <nav>
+            <a href=""><img src="assets/img/BEDU_Logo_White-M.png" alt="" id="bedu-logo"></a>         
+            <div id="signin-signup"> 
+                <a href="login.html">Log In</a>  
+                <a href="">Sign Up</a>  
+            </div>
+            <div class="signin-signup-select">
+                <select name="" id="loginBar" onchange="location = this.value;">
+                    <option value="" selected="true" disabled="disabled">Inicia Sesión</option>
+                    <option value="login.html">Log In</option>
+                    <option value="signup.html">Sign Up</option>
+                </select>
+            </div>
+    </nav> 
+    <div class="bodyLog">
+        
+        <div id="login">
+                <h1 class="pt-32">Log In</h1>
+                <p class="pt-16">Ingresa tus datos</p>
+            <form action="">
+                <input type="text" placeholder="Usuario"><br>
+                <input type="text" placeholder="Contraseña"><br>
+                <button>Enviar</button>
+            </form>  
+        </div>
+    </div> 
+    <footer>
+            <div class="redes">
+                    <p><strong>Bedu Travels</storng><br><br>Síguenos en nuestras redes</p>
+            </div>
+            <div class="redes-icon">
+                <img src="assets/img/fb.png" alt="">
+                <img src="assets/img/tw.png" alt="">
+                <img src="assets/img/ig.png" alt="">
+            </div>
+    </footer> 
 </body>
 </html>

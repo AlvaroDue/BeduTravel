@@ -1,0 +1,42 @@
+.bodyLog {
+    height: 79vh;
+    background-color: $softColor;
+    padding-top:20vh;
+}
+#login {
+    width: 40%;
+    height:auto;
+    margin: 0 auto;
+    border-radius:$sp-16;    
+    background-color: $lightColor;
+    text-align: center;
+}
+
+
+input[type=text] {
+    width: 60%;
+    border-radius: $sp-16;
+    color: $medGray;
+    border: 1px solid $softColor;
+    padding: $sp-8;
+    margin: $sp-16 0 $sp-8;
+    font-size: $sp-16;
+}
+
+::placeholder {
+    color: $softGray;
+}
+
+input:focus {
+    outline: none;
+}
+
+button {
+    padding: $sp-8 $sp-32;
+    margin: $sp-32 0;
+    border-radius: $sp-16;
+    background-color: $fColor;
+    border: none;
+    color: $lightColor;
+    font-weight: bolder;
+}

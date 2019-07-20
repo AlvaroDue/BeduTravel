@@ -3,11 +3,16 @@ $pColor: #000e2b;
 $sColor: #013b63;
 $tColor: #55e9ea;
 $cColor: #ffa748;
+$fColor: #83c722;
 $darkColor: #404040;
+$medGray: #858585;
+$softGray: #b8b8b8;
+$softColor: #ececec;
 $lightColor: #ffffff;
 $fontSize: 16px;
 $fontSize2x: 2rem;
 $fontSize3x: 3rem;
+$sp-8: .5rem;
 $sp-16: 1rem;
 $sp-24: 1.5rem;
 $sp-32: 2rem;
@@ -32,4 +37,12 @@ html {
 body {
     color:$darkColor;
     font-family: $font;
+}
+
+.pt-32 {
+    padding-top: $sp-32;
+}
+
+.pt-16 {
+    padding-top: $sp-16;
 }
